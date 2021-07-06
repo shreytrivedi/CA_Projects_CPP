@@ -72,7 +72,7 @@ void RenderCanvas(const string& input, const LetterCanvas& canvas)
 
 int main()
 {
-    string input = "ABC";
+    string input = "HREY";
     LetterCanvas canvas = MakeCanvas(input);
     RenderCanvas(input, canvas);
     return 0;
